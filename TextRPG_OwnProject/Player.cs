@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace TextRPG_OwnProject
 {
-    internal class MainCharacter
+    internal class Player
     {
-        private string Name { get; set; }
+        public string Name;
+
+        public Player(string name)
+        {
+            Name = name;
+        }
     }
 }
